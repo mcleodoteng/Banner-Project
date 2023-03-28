@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 0;
+}
+body{
+  width: 100%;
+  place-content: center;
+  height: 100vh;
+  display: grid;
+  background-color:  hsl(0, 0%, 95%);
+ 
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: 400;
+  font-family: 'Lexend Deca';
+  font-size: 15px;
+  width: 220px;
+  text-align: left;
+  word-spacing: 1px;
+  line-height: 25px;
+}
+button
+{
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 20px;
+  background-color: transparent;
+  width: 130px;
+  height: 40px;
+  font-family: 'Lexend Deca';
+  color: hsl(0, 0%, 95%);
+  margin-top: 90px;
+  margin-left: -100px;
+}
+
+h1
+{
+  color: hsl(0, 0%, 95%);
+  font-weight: 700;
+  font-family: 'Big Shoulders Display';
+  margin-left: 15px;
+}
+.cont{
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+.head1{
+  margin-left: -155px;
+  padding-top: 50px;
+}
+
+.card2{
+  background-color: hsl(31, 77%, 52%);
+  width: 310px;
+  height: 500px;
+  margin: auto;
+  border-radius: 10px 0px 0px 15px;
+}
+.card3{
+  background-color: hsl(184, 100%, 22%);
+  width: 310px;
+  height: 500px;
+  margin: auto;
+  border-radius: 0px;
+}
+.card4{
+  background-color: hsl(179, 100%, 13%);
+  width: 310px;
+  height: 500px;
+  margin: auto;
+  border-radius: 0px 20px 20px 0px;
+}
